@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MAYOR · Connexion</title>
+<style>body{background:#000;color:#fff;font-family:-apple-system,Helvetica,Arial,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;text-align:center}a{color:#E8CF82}</style>
+</head><body>
+<div><p>Connexion réussie, retour à l'appli MAYOR…</p><p><a id="l" href="#">Ouvrir l'appli</a></p></div>
+<script>
+var target = 'ch.mayorent.app:/oauth' + window.location.search;
+document.getElementById('l').href = target;
+window.location.replace(target);
+</script>
+</body></html>
